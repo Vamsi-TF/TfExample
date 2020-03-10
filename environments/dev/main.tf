@@ -20,15 +20,15 @@ provider "azurerm" {
 
 # Resource Group
 
-module "RG" {
-  source              =   "../../modules/resourcegroups" 
-}
+# module "RG" {
+#   source              =   "../../modules/resourcegroups" 
+# }
 
 # Network
 
-# module "NETWORK" {
-#   source              =   "../../modules/network"
-# }
+module "NETWORK" {
+  source              =   "../../modules/network"
+}
 
 # Virtual Machines
 
