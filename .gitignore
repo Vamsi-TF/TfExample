@@ -4,9 +4,9 @@
 *.tfstate
 *.tfstate.*
 
-*.tfvars
-
 *.tfplan
 *.tf.json
 
 .vscode/
+
+auth.txt
